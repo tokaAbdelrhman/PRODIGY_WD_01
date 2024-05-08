@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task-1</title>
+  </head>
+  <body>
+    <div class="contain">
+      <div class="header">
+        <a class="logo" href="#">
+          <img src="image/logo.png" />
+        </a>
+        <nav>
+          <div class="nav-item">
+            <a href="#" class="item">Home</a>
+            <a href="#" class="item">About</a>
+            <a href="#" class="item">Menu</a>
+            <a href="#" class="item">Contact</a>
+          </div>
+        </nav>
+      </div>
+      <div class="section">
+        <div class="home">
+          <div class="text">
+            <h1>iphone products</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              rerum hic delectus, saepe aliquid optio repellendus dolorem
+              deleniti quasi voluptate.
+            </p>
+            <button>View All Products</button>
+          </div>
+          <div class="photo">
+            <img src="1.png" class="image" />
+          </div>
+        </div>
+        <div class="test">
+          <ul>
+            <li href="#">
+              <img
+                onclick="phones(this.src); changeColor('#B1AE4E')"
+                src="0.png"
+              />
+            </li>
+            <li href="#">
+              <img
+                onclick="phones(this.src);changeColor('#4D9CB9') "
+                src="1.png"
+              />
+            </li>
+
+            <li href="#">
+              <img
+                onclick="phones(this.src); changeColor('#313537')"
+                src="2.png"
+              />
+            </li>
+            <li href="#">
+              <img
+                onclick="phones(this.src) ; changeColor('pink')"
+                src="3.png"
+              />
+            </li>
+            <li href="#">
+              <img
+                onclick="phones(this.src); changeColor('red')"
+                src="4.png"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
